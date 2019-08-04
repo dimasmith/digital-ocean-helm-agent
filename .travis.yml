@@ -3,3 +3,8 @@ services:
 
 script:
   - docker build -t dimasmith/digital-ocean-helm-agent .
+
+deploy:
+  provider: script
+  script: bash deploy.sh
+    
