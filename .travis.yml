@@ -2,4 +2,4 @@ services:
   - docker
 
 script:
-  - docker build -t dimasmith/digital-ocean-helm-agent
+  - docker build -t dimasmith/digital-ocean-helm-agent .
