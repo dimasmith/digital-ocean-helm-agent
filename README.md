@@ -8,7 +8,7 @@ Image contains `helm` executable that can connect to Digital Ocean kubernetes cl
 Installing a release:
 
 ```bash
-docker run --rm -e "DIGITALOCEAN_ACCESS_TOKEN=<token>" -e "KUBERNETES_CLUSTER=kube-default" -v ./helm/application:/charts dimasmith/digital-ocean-helm install /charts
+docker run --rm -e "DIGITALOCEAN_ACCESS_TOKEN=<token>" -e "KUBERNETES_CLUSTER=kube-default" -v ./helm/application:/charts dimasmith/digital-ocean-helm-agent install /charts
 ```
 
 ## Configuration
