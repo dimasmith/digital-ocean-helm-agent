@@ -1,7 +1,7 @@
 FROM digitalocean/doctl:1.26.2
 
 # install kubectl
-RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl && \  
+RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.15.1/bin/linux/amd64/kubectl && \
   chmod +x ./kubectl
 
 # install helm
