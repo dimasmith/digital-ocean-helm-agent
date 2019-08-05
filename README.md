@@ -16,3 +16,9 @@ docker run --rm -e "DIGITALOCEAN_ACCESS_TOKEN=<token>" -e "KUBERNETES_CLUSTER=ku
 * `DIGITALOCEAN_ACCESS_TOKEN` - access token for a kubernetes cluster
 * `KUBERNETES_CLUSTER` - name/id of kubernetes cluster
 * Volume `/charts` - volume where you can mount your charts
+
+## Versions
+
+* `doctl` - `1.26.2`
+* `kubectl` - `v1.15.1`
+* `helm` - `v2.14.2`
